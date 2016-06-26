@@ -41,6 +41,16 @@ h1 {
 	padding-top: 2rem;
 }
 
+h2 {
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 4em;
+	margin: 0 auto;
+	padding: 4rem;
+	text-align: center;
+}
+
 ul {
 	list-style: none;
 	padding: 0;
@@ -61,12 +71,26 @@ li {
 	text-transform: uppercase;
 }
 
+.line-through {
+	text-decoration: line-through; 
+}
+
+.underline {
+	text-decoration: underline;
+	text-decoration-color: #fbf74b;
+}
 
 /* Containers */
 
 .flex-container {
 	display: -webkit-flex;
 	display: flex;
+}
+
+#tag-line {
+	background: #c4c4c4;
+	min-height: 12rem;
+	margin: 0 auto;
 }
 
 .inline-flex-container {
