@@ -1,0 +1,103 @@
+/* Style Resets */
+
+html {
+	font-size: 62.5%;
+}
+
+
+
+/* Color Systems */
+
+.brand-yellow {
+	color: #fbf74b;
+}
+
+.brand-black {
+	color: #000;
+}
+
+.brand-grey {
+	color: #c4c4c4;
+}
+
+.brand-dark-grey {
+	color: #979797;
+}
+
+.brand-white {
+	color: #fff;
+}
+
+
+
+/* Typography */
+
+h1 {
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+	font-size: 4rem;
+	width: auto;
+	margin: 0 0 0 2.5rem;
+	padding-top: 2rem;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	font-family: "Oswald", sans-serif;
+}
+
+li {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+	font-size: 250%;
+	width: auto;
+	margin: 0 2rem 0 2rem;
+	text-align: right;
+}
+
+.caps {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+
+/* Containers */
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.inline-flex-container {
+	display: -webkit-flex;
+	display: inline-flex;
+}
+
+header {
+	min-height: 18rem;
+	background: #000;
+}
+
+nav {
+	min-height: 8rem;
+	margin: 2rem 0 auto 30rem;
+}
+
+body {
+	max-width: 128rem;
+}
+
+
+
+/* Decorations */
+hr {
+	margin: 2rem 0 0 0;
+	vertical-align: bottom;
+	border-top: 0.3rem solid #fbf74b;
+	border-bottom: 0.3rem solid #fbf74b; 
+}
+
+
+
+
