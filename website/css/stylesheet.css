@@ -45,9 +45,9 @@ h2 {
 	font-family: "Merriweather", serif;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 4em;
+	font-size: 4rem;
 	margin: 0 auto;
-	padding: 4rem;
+	padding-top: 3.5rem;
 	text-align: center;
 }
 
@@ -75,9 +75,24 @@ li {
 	text-decoration: line-through; 
 }
 
+.create-profile-header {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 4rem;
+	text-align: left;
+	padding: 0;
+}
+
 .underline {
 	text-decoration: underline;
 	text-decoration-color: #fbf74b;
+}
+
+p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+	font-size: 3rem;
 }
 
 /* Containers */
@@ -112,7 +127,21 @@ body {
 	max-width: 128rem;
 }
 
+#hero-image {
+	min-height: 66.4rem;
+	background: no-repeat top/100% url("../img/coworking.jpg");
+}
 
+.create-profile {
+	position: relative;
+	margin: 0 4rem 0 auto;
+	top: 4rem;
+	max-width: 35rem;
+	padding: 4rem;
+	text-align: left;
+	background: #fff;
+	opacity: 0.75;
+}
 
 /* Decorations */
 hr {
