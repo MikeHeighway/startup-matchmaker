@@ -141,6 +141,18 @@ body {
 	max-width: 128rem;
 }
 
+button {
+	background: #c4c4c4;
+	font-family: "Oswald", sans-serif;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	border-radius: .5rem;
+	border: none;
+	padding: 1.5rem 2rem;
+	box-shadow: 0 0.3rem 0 0 #979797;
+
+}
+
 #hero-image {
 	min-height: 66.4rem;
 	background: no-repeat top/100% url("../img/coworking.jpg");
